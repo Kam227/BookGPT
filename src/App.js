@@ -76,7 +76,6 @@ function App() {
           <h1>BookGPT</h1>
           <p id='output'>{outputValue}</p>
           <div className="book-recommendations">
-            {/* You can add other UI elements here if needed */}
           </div>
           <div className='bottom-section'>
             <div className='input-container'>
