@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const API_KEY = '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';
+  const API_KEY = {/* OPENAI KEY */};
   const [inputValue, setInputValue] = useState('');
   const [outputValue, setOutputValue] = useState('');
   const [history, setHistory] = useState([]);
